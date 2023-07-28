@@ -1,0 +1,17 @@
+.rulesContainer {
+    position: absolute;
+    background-color: #008B8B;
+    padding: 1em;
+    border: 1px solid #7FFFD4;
+    border-radius: 1em;
+    height: 12em;
+    margin-top: 2em;
+}
+
+.rulesContainer li{
+    text-align: left;
+}
+
+.rulesContainer button {
+    font-size: 0.8em;
+}

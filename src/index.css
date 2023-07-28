@@ -1,0 +1,38 @@
+/* Declarando as váriaveis de cor principais do projeto */
+:root {
+    --main-grey: #DCDCDC;
+    --main-blue: #0000FF;
+    --main-cyan: #008B8B;
+}
+
+html, body {
+    height: 100vh;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, var(--main-cyan), var(--main-blue));
+    color: #FFF;
+}
+
+button {
+    font-size: 1.2em;
+    background-color: var(--main-cyan);
+    color: #FFF;
+    padding: 0.6em 1.2em;
+    border: 1px solid #FFF;
+    text-transform: uppercase;
+    border-radius: 1em;
+    box-shadow: 3px 5px 15px 1px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.4s;
+}
+
+button:hover {
+    background-color: transparent;
+    box-shadow: 0 0 10px 3px var(--main-cyan);
+    transform: translateY(0.2em);
+}
