@@ -67,3 +67,20 @@
 .help_container span {
     font-size: 0.8em;
 }
+
+/* Adicionando responsividade */
+@media(max-width < 480px){
+    .game {
+        height: fit-content;
+    }
+
+    .points span {
+        position: absolute;
+        top: 0.2em;
+        left: 0.2em;
+    }
+
+    .wordContainer {
+        width: 100vw;
+    }
+}

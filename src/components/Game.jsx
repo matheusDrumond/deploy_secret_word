@@ -71,6 +71,8 @@ const Game = ({
             required
             value={letter}
             ref={letterInputRef}
+            translate='no'
+            spellCheck='false'
           />
           <button>Jogar!</button>
         </form>
